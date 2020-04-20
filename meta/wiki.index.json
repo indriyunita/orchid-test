@@ -1,0 +1,35 @@
+{
+  "ownKey": "wiki",
+  "childrenPages": {"wiki": {
+    "ownKey": "wiki",
+    "childrenPages": {"installation": {
+      "ownKey": "installation",
+      "ownPages": [{
+        "reference": {
+          "path": "wiki",
+          "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+          "fileName": "installation",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "https://ruangguru.gitlab.io/android/rg-android-core/wiki/installation"
+        },
+        "description": "",
+        "title": "Installation",
+        "content": "<p>To include rg-core as dependency, add this line in your subproject-level (app/module) <code>build.gradle<\/code>:<\/p>\n<p><code>implementation &quot;com.ruangguru.core:core:$RgCoreVersion&quot;<\/code><\/p>\n"
+      }]
+    }},
+    "ownPages": [{
+      "reference": {
+        "path": "",
+        "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+        "fileName": "wiki",
+        "extension": "html",
+        "usePrettyUrl": true,
+        "link": "https://ruangguru.gitlab.io/android/rg-android-core/wiki"
+      },
+      "description": "",
+      "title": "Wiki",
+      "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"https://ruangguru.gitlab.io/android/rg-android-core/wiki/installation\">Installation<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
+    }]
+  }}
+}

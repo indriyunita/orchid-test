@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+
+<meta charset="utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+<meta name="generator" content="Orchid 0.20.0-SNAPSHOT"/>
+<link rel="icon" href="https://ruangguru.gitlab.io/android/rg-android-core/favicon.ico">
+
+
+<meta name="robots" content="index, follow">
+
+
+
+<title>DiffCallback</title>
+
+
+<meta name="description" content="Core helper library for common, reusable solutions.">
+
+
+
+
+
+<script>
+    window.site = {"orchidVersion":"0.20.0-SNAPSHOT","baseUrl":"https://ruangguru.gitlab.io/android/rg-android-core","environment":"debug","version":"1.0.0"};
+</script>
+
+
+
+
+
+<!-- start:debug info -->
+
+<!-- THEME -->
+<!-- Type: BsDoc -->
+<!-- Class: com.eden.orchid.bsdoc.BSDocTheme -->
+
+<!-- PAGE -->
+<!-- Type: classes -->
+<!-- Class: com.eden.orchid.sourcedoc.page.SourceDocPage -->
+<!-- Layout: index -->
+<!-- Resolved Layout: templates/layouts/index.peb -->
+<!-- Page Template: kotlindocClass, sourceDocPage, classes, page -->
+<!-- Resolved Page Template: templates/pages/sourceDocPage.peb -->
+
+<!-- RESOURCE -->
+<!-- Class: com.eden.orchid.sourcedoc.page.SourceDocResource -->
+<!-- Source Filename:  -->
+
+<!-- COMPLETE PAGE CONFIGURATION -->
+<script>
+    window.allData = {"reference":{"path":"kotlindoc","baseUrl":"https://ruangguru.gitlab.io/android/rg-android-core","fileName":"com/ruangguru/core/common/diffcallback","extension":"html","usePrettyUrl":true,"link":"https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/common/diffcallback"},"description":"","title":"DiffCallback"};
+</script>
+
+<!-- end:debug info -->
+
+
+
+
+    <!-- start:inject meta-components -->
+    
+        
+            
+        
+    
+    <!-- end:inject meta-components -->
+
+
+
+    <!-- start:inject meta-components -->
+    
+    <!-- end:inject meta-components -->
+
+
+
+
+
+<!-- start:inject styles -->
+<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"  />
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css"  />
+<link rel="stylesheet" type="text/css" href="https://ruangguru.gitlab.io/android/rg-android-core/BsDoc/6d7e78d9/assets/css/bsdoc.css"  />
+<link rel="stylesheet" type="text/css" href="https://ruangguru.gitlab.io/android/rg-android-core/BsDoc/6d7e78d9/assets/css/orchidSearch.css"  />
+<link rel="stylesheet" type="text/css" href="https://ruangguru.gitlab.io/android/rg-android-core/assets/css/orchidSearch.css"  />
+<link rel="stylesheet" type="text/css" href="https://ruangguru.gitlab.io/android/rg-android-core/assets/css/orchidSourceDoc.css"  />
+<!-- end:inject styles -->
+
+
+</head>
+<body>
+
+
+
+
+
+<header class="navbar navbar-fixed-top bs-docs-nav">
+    <div class="container">
+        <div class="navbar-header" role="banner">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://ruangguru.gitlab.io/android/rg-android-core">RG Android Core</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    
+                        <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/wiki/installation">Installation</a></li>
+                    
+                
+                    
+                        <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/changelog">Changelog</a></li>
+                    
+                
+                    
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">API Docs: Classes<span class="caret"></span></a>
+                            <ul class="dropdown-menu scrollable-menu">
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/realm/autoincrementpk">AutoIncrementPK</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base/legacy/baseactivity">BaseActivity</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base/basechromeclient">BaseChromeClient</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base/basedaggeractivity">BaseDaggerActivity</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base/basedaggerfragment">BaseDaggerFragment</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base/legacy/basefragment">BaseFragment</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base/legacy/basepresenter">BasePresenter</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base/baseviewmodel">BaseViewModel</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base/basewebviewclient">BaseWebViewClient</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/extensions/colorutil">ColorUtil</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/network/commonnetworkmodule">CommonNetworkModule</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/common/diffcallback">DiffCallback</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/common/genericrecycleradapter">GenericRecyclerAdapter</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/common/genericrecycleradapter/genericviewholder">GenericViewHolder</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/rx/permission/rxpermissions/lazy">Lazy</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base/legacy/mvppresenter">MvpPresenter</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base/legacy/mvpview">MvpView</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/rginternal/peercertificateextractor">PeerCertificateExtractor</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/rx/permission/permission">Permission</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/realm/query">Query</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/realm/realmconfigstore">RealmConfigStore</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/rx/retrywithdelay">RetryWithDelay</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/extensions/rgglidecropmode">RgGlideCropMode</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/rginternal/rginternal">RgInternal</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/rx/permission/rxpermissions">RxPermissions</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/rx/permission/rxpermissionsfragment">RxPermissionsFragment</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/helper/savejson">SaveJson</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/singletonholder">SingletonHolder</a></li>
+                                
+                            </ul>
+                        </li>
+                    
+                
+                    
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">API Docs: Packages<span class="caret"></span></a>
+                            <ul class="dropdown-menu scrollable-menu">
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base">com.ruangguru.core.base</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base/legacy">com.ruangguru.core.base.legacy</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/common">com.ruangguru.core.common</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/extensions">com.ruangguru.core.extensions</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/helper">com.ruangguru.core.helper</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/network">com.ruangguru.core.network</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/rginternal">com.ruangguru.core.rginternal</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils">com.ruangguru.core.utils</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/realm">com.ruangguru.core.utils.realm</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/rx">com.ruangguru.core.utils.rx</a></li>
+                                
+                                    <li><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/rx/permission">com.ruangguru.core.utils.rx.permission</a></li>
+                                
+                            </ul>
+                        </li>
+                    
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<div id="top"></div>
+
+
+    <div class="bs-docs-masthead" id="jumbotron">
+        <div class="container">
+            <h1 class="home-title">DiffCallback</h1>
+        </div>
+    </div>
+
+
+<div class="container bs-docs-container">
+    <div class="row">
+        <div class="col-md-9" role="main">
+        <nav aria-label="breadcrumb">
+    <ul class="breadcrumb">
+    
+    
+        <li class="breadcrumb-item"><a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc">README</a></li>
+    
+    
+    
+        <li class="breadcrumb-item active" aria-current="page">DiffCallback</li>
+    
+    
+    </ul>
+</nav>
+        
+
+        
+        
+            
+    <!-- start:inject components -->
+    
+        
+            
+                
+                    
+                        <div class="sourcedoc-page orchid-sourcedoc content">
+  
+<div class="sourcedoc-section section-root section-level-1" id="DiffCallback">
+
+
+  <h1 class="sourcedoc-section section-name">DiffCallback</h1>
+  
+    <div class="sourcedoc-section section-element" id="332c7f3e946c5292c150bcc1545362941a59e031">
+      
+      <p class="sourcedoc-section section-signature">
+        <code>class <a href="https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/common/diffcallback">DiffCallback</a></code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Created by herisulistiyanto on 14/03/19.
+KjokenKoddinger</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="constructors">
+
+
+  <p class="sourcedoc-section section-name"><strong>Constructors</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="d4613aad3f43ed7d2b370aabe518d8516ff827ff">
+        <td class="sourcedoc-section section-signature">
+          <code>constructor()</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>Created by herisulistiyanto on 14/03/19.
+KjokenKoddinger</p>
+
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="methods">
+
+
+  <h2 class="sourcedoc-section section-name">Methods</h2>
+  
+    <div class="sourcedoc-section section-element" id="4b27abac8139e07f623b27cd69c192a5e8489fd7">
+      
+      <h3 class="sourcedoc-section element-name">setList</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun setList(oldList: List&lt;Any&gt;, newList: List&lt;Any&gt;)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="6ddb78d15edcf67925b443b3759a239f888a08b3">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="abb91609f040a4732572f882a9c64fcc67011370">
+        <td class="sourcedoc-section section-signature">
+          <code>oldList: List&lt;Any&gt;</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="b903708557998d96d1872a8e134f3e852895effd">
+        <td class="sourcedoc-section section-signature">
+          <code>newList: List&lt;Any&gt;</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="391181da51f2058559f16a0e4abcf6bca1307409">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="4ecff2ab4775174c1d10657c5f9db7bdc2c2fd32">
+      
+      <h3 class="sourcedoc-section element-name">getOldListSize</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun getOldListSize(): Int</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="c795c018f1bfbb91797f6ec9484b64b42da30825">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="5c89edcac2811a6a9e8072517cae7f3cbfd5049d">
+        <td class="sourcedoc-section section-signature">
+          <code>Int</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="5fbc3550f3ee269ed0d8b29a6667216db783d5c4">
+      
+      <h3 class="sourcedoc-section element-name">getNewListSize</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun getNewListSize(): Int</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="c27f5951bd52c4dc66dcf80afbf49ec7563af3f9">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="5c89edcac2811a6a9e8072517cae7f3cbfd5049d">
+        <td class="sourcedoc-section section-signature">
+          <code>Int</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="fce488d0c5db244e3c1c57ad9d3390d68420b590">
+      
+      <h3 class="sourcedoc-section element-name">areItemsTheSame</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun areItemsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="a3649cbc655ec328b5090909e99da0e4a60117b4">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="efe3c0b673acef8cfa2fd6f331fb3bb39cd60e43">
+        <td class="sourcedoc-section section-signature">
+          <code>oldItemPosition: Int</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="23dabdf714b978bb6c2e0b562209f8a5c8eede93">
+        <td class="sourcedoc-section section-signature">
+          <code>newItemPosition: Int</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="50fbad18bf2f95dff479e4a9224ec32ca0774e83">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="b76ff4906f33c2dd97ddd929b9662ba8cac6174c">
+        <td class="sourcedoc-section section-signature">
+          <code>Boolean</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="a2a80ed1d95c266700398f0d04de1dd5ede81868">
+      
+      <h3 class="sourcedoc-section element-name">areContentsTheSame</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>fun areContentsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="d5d64d938cd5b0a73488231003a66cc49a465665">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="efe3c0b673acef8cfa2fd6f331fb3bb39cd60e43">
+        <td class="sourcedoc-section section-signature">
+          <code>oldItemPosition: Int</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="23dabdf714b978bb6c2e0b562209f8a5c8eede93">
+        <td class="sourcedoc-section section-signature">
+          <code>newItemPosition: Int</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="ced06b2c7475c111c8afd1f48b89ba872f1a23f6">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="b76ff4906f33c2dd97ddd929b9662ba8cac6174c">
+        <td class="sourcedoc-section section-signature">
+          <code>Boolean</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+</div>
+
+
+
+
+
+
+                    
+                
+            
+        
+    
+    <!-- end:inject components -->
+
+
+        
+        </div>
+
+        <!-- Page navigation
+        =========================================== -->
+        <div class="col-md-3" role="complementary">
+        <div class="bs-docs-sidebar hidden-print" id="bs-docs-sidebar">
+    <section id="search" >
+        <form data-orchid-search="">
+            <div class="input-group">
+                <input type="text" name="query" id="query" class="form-control" placeholder="Search&hellip;">
+                <span class="input-group-btn"><button type="submit" class="btn btn-default">Go</button></span>
+            </div>
+        </form>
+        <div id="search-results" data-orchid-search-results style="display: none;">
+            <b>Search Results</b>
+            <ul></ul>
+        </div>
+        <div id="search-progress" data-orchid-search-progress style="display: none;">
+            <div class="loader">Loading...</div>
+        </div>
+    </section>
+
+    <ul class="nav bs-docs-sidenav">
+        
+        
+            
+                <li class="has-children ">
+                    <a>Constructors</a>
+                    <ul class="nav">
+                        
+                        
+                            
+                                <li class="">
+                                    <a href="#d4613aad3f43ed7d2b370aabe518d8516ff827ff">constructor()</a>
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+        
+            
+                <li class="has-children ">
+                    <a>Methods</a>
+                    <ul class="nav">
+                        
+                        
+                            
+                                <li class="">
+                                    <a href="#4b27abac8139e07f623b27cd69c192a5e8489fd7">fun setList(oldList: List&lt;Any&gt;, newList: List&lt;Any&gt;)</a>
+                                </li>
+                            
+                        
+                            
+                                <li class="">
+                                    <a href="#4ecff2ab4775174c1d10657c5f9db7bdc2c2fd32">fun getOldListSize(): Int</a>
+                                </li>
+                            
+                        
+                            
+                                <li class="">
+                                    <a href="#5fbc3550f3ee269ed0d8b29a6667216db783d5c4">fun getNewListSize(): Int</a>
+                                </li>
+                            
+                        
+                            
+                                <li class="">
+                                    <a href="#fce488d0c5db244e3c1c57ad9d3390d68420b590">fun areItemsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean</a>
+                                </li>
+                            
+                        
+                            
+                                <li class="">
+                                    <a href="#a2a80ed1d95c266700398f0d04de1dd5ede81868">fun areContentsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean</a>
+                                </li>
+                            
+                        
+                    </ul>
+                </li>
+            
+        
+    </ul>
+
+    
+    <!-- start:inject components -->
+    
+    <!-- end:inject components -->
+
+
+
+    <a class="back-to-top" href="#top">
+        <i class="glyphicon glyphicon-chevron-up"></i> Back to top
+    </a>
+</div>
+
+        </div>
+    </div>
+</div>
+
+
+<div id="footer">
+    <div class="container bs-docs-container">
+    <footer class="bs-docs-footer" role="contentinfo">
+    <div class="row">
+        <div class="col-xs-12">
+            <nav aria-label="navigateClasses">
+                <ul class="pager">
+                    
+
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="icons">
+    
+    
+    
+    </div>
+    <br>
+    <p>
+    Documentation template based on the
+    <a href="https://github.com/mistic100/jekyll-bootstrap-doc">Jekyll Bootstrap Doc</a>
+    Jekyll theme by the <a href="https://getbootstrap.com">Bootstrap team</a>. Site created with
+    <a href="https://orchid.run">Orchid</a>.
+</p>
+
+<ul class="bs-docs-footer-links muted">
+    <li>Currently 1.0.0</li>
+</ul>
+
+
+</footer>
+    </div>
+</div>
+
+
+<!-- start:inject scripts -->
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script  src="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.3.0/bootbox.min.js"></script>
+<script  src="https://ruangguru.gitlab.io/android/rg-android-core/BsDoc/6d7e78d9/assets/js/bsdoc.js"></script>
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script  src="https://unpkg.com/lunr/lunr.js"></script>
+<script  src="https://ruangguru.gitlab.io/android/rg-android-core/assets/js/orchidSearch.js"></script>
+<!-- end:inject scripts -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/1.2.0/trianglify.min.js"></script>
+
+<script>
+    $(function () {
+        window.colors = ['#00B0F0', '#000000'];
+                  
+    trianglify({});
+
+        buildNav();
+    });
+</script>
+
+</body>
+</html>

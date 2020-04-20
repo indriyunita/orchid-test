@@ -1,0 +1,766 @@
+{
+  "ownKey": "index",
+  "childrenPages": {
+    "javadoc": {
+      "ownKey": "javadoc",
+      "ownPages": [{
+        "reference": {
+          "path": "javadoc",
+          "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+          "fileName": "",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "https://ruangguru.gitlab.io/android/rg-android-core/javadoc"
+        },
+        "description": "",
+        "title": "",
+        "content": ""
+      }]
+    },
+    "kotlindoc": {
+      "ownKey": "kotlindoc",
+      "childrenPages": {"com": {
+        "ownKey": "com",
+        "childrenPages": {"ruangguru": {
+          "ownKey": "ruangguru",
+          "childrenPages": {"core": {
+            "ownKey": "core",
+            "childrenPages": {
+              "extensions": {
+                "ownKey": "extensions",
+                "childrenPages": {
+                  "colorutil": {
+                    "ownKey": "colorutil",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                        "fileName": "com/ruangguru/core/extensions/colorutil",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/extensions/colorutil"
+                      },
+                      "description": "",
+                      "title": "ColorUtil",
+                      "content": "<p>CommentComponent(kind=text, text=Created by herisulistiyanto on 2020-01-06.\nKjokenKoddinger, value=null)<\/p>\n"
+                    }]
+                  },
+                  "rgglidecropmode": {
+                    "ownKey": "rgglidecropmode",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                        "fileName": "com/ruangguru/core/extensions/rgglidecropmode",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/extensions/rgglidecropmode"
+                      },
+                      "description": "",
+                      "title": "RgGlideCropMode",
+                      "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                    }]
+                  }
+                },
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc",
+                    "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                    "fileName": "com/ruangguru/core/extensions",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/extensions"
+                  },
+                  "description": "",
+                  "title": "com.ruangguru.core.extensions",
+                  "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                }]
+              },
+              "common": {
+                "ownKey": "common",
+                "childrenPages": {
+                  "genericrecycleradapter": {
+                    "ownKey": "genericrecycleradapter",
+                    "childrenPages": {"genericviewholder": {
+                      "ownKey": "genericviewholder",
+                      "ownPages": [{
+                        "reference": {
+                          "path": "kotlindoc",
+                          "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                          "fileName": "com/ruangguru/core/common/genericrecycleradapter/genericviewholder",
+                          "extension": "html",
+                          "usePrettyUrl": true,
+                          "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/common/genericrecycleradapter/genericviewholder"
+                        },
+                        "description": "",
+                        "title": "GenericViewHolder",
+                        "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                      }]
+                    }},
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                        "fileName": "com/ruangguru/core/common/genericrecycleradapter",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/common/genericrecycleradapter"
+                      },
+                      "description": "",
+                      "title": "GenericRecyclerAdapter",
+                      "content": "<p>CommentComponent(kind=text, text=Created by herisulistiyanto on 14/03/19.\nKjokenKoddinger, value=null)<\/p>\n"
+                    }]
+                  },
+                  "diffcallback": {
+                    "ownKey": "diffcallback",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                        "fileName": "com/ruangguru/core/common/diffcallback",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/common/diffcallback"
+                      },
+                      "description": "",
+                      "title": "DiffCallback",
+                      "content": "<p>CommentComponent(kind=text, text=Created by herisulistiyanto on 14/03/19.\nKjokenKoddinger, value=null)<\/p>\n"
+                    }]
+                  }
+                },
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc",
+                    "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                    "fileName": "com/ruangguru/core/common",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/common"
+                  },
+                  "description": "",
+                  "title": "com.ruangguru.core.common",
+                  "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                }]
+              },
+              "helper": {
+                "ownKey": "helper",
+                "childrenPages": {"savejson": {
+                  "ownKey": "savejson",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                      "fileName": "com/ruangguru/core/helper/savejson",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/helper/savejson"
+                    },
+                    "description": "",
+                    "title": "SaveJson",
+                    "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                  }]
+                }},
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc",
+                    "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                    "fileName": "com/ruangguru/core/helper",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/helper"
+                  },
+                  "description": "",
+                  "title": "com.ruangguru.core.helper",
+                  "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                }]
+              },
+              "utils": {
+                "ownKey": "utils",
+                "childrenPages": {
+                  "rx": {
+                    "ownKey": "rx",
+                    "childrenPages": {
+                      "permission": {
+                        "ownKey": "permission",
+                        "childrenPages": {
+                          "permission": {
+                            "ownKey": "permission",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                                "fileName": "com/ruangguru/core/utils/rx/permission/permission",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/rx/permission/permission"
+                              },
+                              "description": "",
+                              "title": "Permission",
+                              "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                            }]
+                          },
+                          "rxpermissionsfragment": {
+                            "ownKey": "rxpermissionsfragment",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                                "fileName": "com/ruangguru/core/utils/rx/permission/rxpermissionsfragment",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/rx/permission/rxpermissionsfragment"
+                              },
+                              "description": "",
+                              "title": "RxPermissionsFragment",
+                              "content": "<p>CommentComponent(kind=text, text=Created by herisulistiyanto on 21/03/19.\nKjokenKoddinger, value=null)<\/p>\n"
+                            }]
+                          },
+                          "rxpermissions": {
+                            "ownKey": "rxpermissions",
+                            "childrenPages": {"lazy": {
+                              "ownKey": "lazy",
+                              "ownPages": [{
+                                "reference": {
+                                  "path": "kotlindoc",
+                                  "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                                  "fileName": "com/ruangguru/core/utils/rx/permission/rxpermissions/lazy",
+                                  "extension": "html",
+                                  "usePrettyUrl": true,
+                                  "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/rx/permission/rxpermissions/lazy"
+                                },
+                                "description": "",
+                                "title": "Lazy",
+                                "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                              }]
+                            }},
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                                "fileName": "com/ruangguru/core/utils/rx/permission/rxpermissions",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/rx/permission/rxpermissions"
+                              },
+                              "description": "",
+                              "title": "RxPermissions",
+                              "content": "<p>CommentComponent(kind=text, text=Created by herisulistiyanto on 21/03/19.\nKjokenKoddinger, value=null)<\/p>\n"
+                            }]
+                          }
+                        },
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                            "fileName": "com/ruangguru/core/utils/rx/permission",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/rx/permission"
+                          },
+                          "description": "",
+                          "title": "com.ruangguru.core.utils.rx.permission",
+                          "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                        }]
+                      },
+                      "retrywithdelay": {
+                        "ownKey": "retrywithdelay",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                            "fileName": "com/ruangguru/core/utils/rx/retrywithdelay",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/rx/retrywithdelay"
+                          },
+                          "description": "",
+                          "title": "RetryWithDelay",
+                          "content": "<p>CommentComponent(kind=text, text=, value=) CommentComponent(kind=typeName, text=RetryWithDelay, value=com.ruangguru.core.utils.rx.RetryWithDelay) CommentComponent(kind=text, text= use with Rx2 operator <a href=\"#\">Observable.retryWhen<\/a> and it will do re-subscribe the stream if error occur\nbut it will retry IF the condition is fulfilled. But retry process will stop IF the error is UnknownHostException\nwhich indicate there is no internet, value=null)<\/p>\n"
+                        }]
+                      }
+                    },
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                        "fileName": "com/ruangguru/core/utils/rx",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/rx"
+                      },
+                      "description": "",
+                      "title": "com.ruangguru.core.utils.rx",
+                      "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                    }]
+                  },
+                  "realm": {
+                    "ownKey": "realm",
+                    "childrenPages": {
+                      "query": {
+                        "ownKey": "query",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                            "fileName": "com/ruangguru/core/utils/realm/query",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/realm/query"
+                          },
+                          "description": "",
+                          "title": "Query",
+                          "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                        }]
+                      },
+                      "autoincrementpk": {
+                        "ownKey": "autoincrementpk",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                            "fileName": "com/ruangguru/core/utils/realm/autoincrementpk",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/realm/autoincrementpk"
+                          },
+                          "description": "",
+                          "title": "AutoIncrementPK",
+                          "content": "<p>CommentComponent(kind=text, text=An annotation class to signify that a value is autoincrement., value=null)<\/p>\n"
+                        }]
+                      },
+                      "realmconfigstore": {
+                        "ownKey": "realmconfigstore",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                            "fileName": "com/ruangguru/core/utils/realm/realmconfigstore",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/realm/realmconfigstore"
+                          },
+                          "description": "",
+                          "title": "RealmConfigStore",
+                          "content": "<p>CommentComponent(kind=text, text=Created by herisulistiyanto on 20/03/19.\nKjokenKoddinger, value=null)<\/p>\n"
+                        }]
+                      }
+                    },
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                        "fileName": "com/ruangguru/core/utils/realm",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/realm"
+                      },
+                      "description": "",
+                      "title": "com.ruangguru.core.utils.realm",
+                      "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                    }]
+                  },
+                  "singletonholder": {
+                    "ownKey": "singletonholder",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                        "fileName": "com/ruangguru/core/utils/singletonholder",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils/singletonholder"
+                      },
+                      "description": "",
+                      "title": "SingletonHolder",
+                      "content": "<p>CommentComponent(kind=text, text=Created by herisulistiyanto on 22/03/19.\nKjokenKoddinger, value=null)<\/p>\n"
+                    }]
+                  }
+                },
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc",
+                    "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                    "fileName": "com/ruangguru/core/utils",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/utils"
+                  },
+                  "description": "",
+                  "title": "com.ruangguru.core.utils",
+                  "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                }]
+              },
+              "rginternal": {
+                "ownKey": "rginternal",
+                "childrenPages": {
+                  "peercertificateextractor": {
+                    "ownKey": "peercertificateextractor",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                        "fileName": "com/ruangguru/core/rginternal/peercertificateextractor",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/rginternal/peercertificateextractor"
+                      },
+                      "description": "",
+                      "title": "PeerCertificateExtractor",
+                      "content": "<p>CommentComponent(kind=text, text=Created by herisulistiyanto on 15/03/19.\nKjokenKoddinger, value=null)<\/p>\n"
+                    }]
+                  },
+                  "rginternal": {
+                    "ownKey": "rginternal",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                        "fileName": "com/ruangguru/core/rginternal/rginternal",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/rginternal/rginternal"
+                      },
+                      "description": "",
+                      "title": "RgInternal",
+                      "content": "<p>CommentComponent(kind=text, text=Created by herisulistiyanto on 15/03/19.\nKjokenKoddinger, value=null)<\/p>\n"
+                    }]
+                  }
+                },
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc",
+                    "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                    "fileName": "com/ruangguru/core/rginternal",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/rginternal"
+                  },
+                  "description": "",
+                  "title": "com.ruangguru.core.rginternal",
+                  "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                }]
+              },
+              "network": {
+                "ownKey": "network",
+                "childrenPages": {"commonnetworkmodule": {
+                  "ownKey": "commonnetworkmodule",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                      "fileName": "com/ruangguru/core/network/commonnetworkmodule",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/network/commonnetworkmodule"
+                    },
+                    "description": "",
+                    "title": "CommonNetworkModule",
+                    "content": "<p>CommentComponent(kind=text, text=Created by herisulistiyanto on 15/03/19.\nKjokenKoddinger, value=null)<\/p>\n"
+                  }]
+                }},
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc",
+                    "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                    "fileName": "com/ruangguru/core/network",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/network"
+                  },
+                  "description": "",
+                  "title": "com.ruangguru.core.network",
+                  "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                }]
+              },
+              "base": {
+                "ownKey": "base",
+                "childrenPages": {
+                  "basewebviewclient": {
+                    "ownKey": "basewebviewclient",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                        "fileName": "com/ruangguru/core/base/basewebviewclient",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base/basewebviewclient"
+                      },
+                      "description": "",
+                      "title": "BaseWebViewClient",
+                      "content": "<p>CommentComponent(kind=text, text=, value=) CommentComponent(kind=typeName, text=BaseWebViewClient, value=com.ruangguru.core.base.BaseWebViewClient) CommentComponent(kind=text, text= use for override webview to be open in-app, not open another browser, value=null)<\/p>\n"
+                    }]
+                  },
+                  "legacy": {
+                    "ownKey": "legacy",
+                    "childrenPages": {
+                      "baseactivity": {
+                        "ownKey": "baseactivity",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                            "fileName": "com/ruangguru/core/base/legacy/baseactivity",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base/legacy/baseactivity"
+                          },
+                          "description": "",
+                          "title": "BaseActivity",
+                          "content": "<p>CommentComponent(kind=text, text=NOTE: This is legacy BaseActivity will deprecated soon, value=null)<\/p>\n"
+                        }]
+                      },
+                      "mvpview": {
+                        "ownKey": "mvpview",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                            "fileName": "com/ruangguru/core/base/legacy/mvpview",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base/legacy/mvpview"
+                          },
+                          "description": "",
+                          "title": "MvpView",
+                          "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                        }]
+                      },
+                      "basefragment": {
+                        "ownKey": "basefragment",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                            "fileName": "com/ruangguru/core/base/legacy/basefragment",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base/legacy/basefragment"
+                          },
+                          "description": "",
+                          "title": "BaseFragment",
+                          "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                        }]
+                      },
+                      "mvppresenter": {
+                        "ownKey": "mvppresenter",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                            "fileName": "com/ruangguru/core/base/legacy/mvppresenter",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base/legacy/mvppresenter"
+                          },
+                          "description": "",
+                          "title": "MvpPresenter",
+                          "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                        }]
+                      },
+                      "basepresenter": {
+                        "ownKey": "basepresenter",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                            "fileName": "com/ruangguru/core/base/legacy/basepresenter",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base/legacy/basepresenter"
+                          },
+                          "description": "",
+                          "title": "BasePresenter",
+                          "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                        }]
+                      }
+                    },
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                        "fileName": "com/ruangguru/core/base/legacy",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base/legacy"
+                      },
+                      "description": "",
+                      "title": "com.ruangguru.core.base.legacy",
+                      "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                    }]
+                  },
+                  "basedaggerfragment": {
+                    "ownKey": "basedaggerfragment",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                        "fileName": "com/ruangguru/core/base/basedaggerfragment",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base/basedaggerfragment"
+                      },
+                      "description": "",
+                      "title": "BaseDaggerFragment",
+                      "content": "<p>CommentComponent(kind=text, text=Created by herisulistiyanto on 14/03/19.\nKjokenKoddinger, value=null)<\/p>\n"
+                    }]
+                  },
+                  "basechromeclient": {
+                    "ownKey": "basechromeclient",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                        "fileName": "com/ruangguru/core/base/basechromeclient",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base/basechromeclient"
+                      },
+                      "description": "",
+                      "title": "BaseChromeClient",
+                      "content": "<p>CommentComponent(kind=text, text=, value=) CommentComponent(kind=typeName, text=BaseChromeClient, value=com.ruangguru.core.base.BaseChromeClient) CommentComponent(kind=text, text= is use for Chrome Client webview, value=null)<\/p>\n"
+                    }]
+                  },
+                  "basedaggeractivity": {
+                    "ownKey": "basedaggeractivity",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                        "fileName": "com/ruangguru/core/base/basedaggeractivity",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base/basedaggeractivity"
+                      },
+                      "description": "",
+                      "title": "BaseDaggerActivity",
+                      "content": "<p>CommentComponent(kind=text, text=Created by herisulistiyanto on 14/03/19.\nKjokenKoddinger, value=null)<\/p>\n"
+                    }]
+                  },
+                  "baseviewmodel": {
+                    "ownKey": "baseviewmodel",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                        "fileName": "com/ruangguru/core/base/baseviewmodel",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base/baseviewmodel"
+                      },
+                      "description": "",
+                      "title": "BaseViewModel",
+                      "content": "<p>CommentComponent(kind=text, text=Created by herisulistiyanto on 14/03/19.\nKjokenKoddinger, value=null)<\/p>\n"
+                    }]
+                  }
+                },
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc",
+                    "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+                    "fileName": "com/ruangguru/core/base",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc/com/ruangguru/core/base"
+                  },
+                  "description": "",
+                  "title": "com.ruangguru.core.base",
+                  "content": "<p>CommentComponent(kind=text, text=, value=null)<\/p>\n"
+                }]
+              }
+            }
+          }}
+        }}
+      }},
+      "ownPages": [{
+        "reference": {
+          "path": "kotlindoc",
+          "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+          "fileName": "",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "https://ruangguru.gitlab.io/android/rg-android-core/kotlindoc"
+        },
+        "description": "",
+        "title": "README",
+        "content": "<h1 id=\"readme\"><a href=\"#readme\" id=\"readme\" class=\"anchor\"><\/a>README<\/h1>\n<h2 id=\"how-to-commit\"><a href=\"#how-to-commit\" id=\"how-to-commit\" class=\"anchor\"><\/a>How to Commit<\/h2>\n<ul>\n<li>Make sure your commit message is easy to understand<\/li>\n<li>Commit message format <code>[YOUR_NAME] your detail commit message<\/code><\/li>\n<li>If possible, use only 1 push, but it's ok with multiple commits<\/li>\n<li>Always sync with the branch you want to merge to, for example in your branch feature/feature-name :\n<code>git pull --rebase origin master<\/code>, will sync your branch with master and make sure to run this after commit &amp; <code>BEFORE<\/code>\nyou push code<\/li>\n<\/ul>\n<h2 id=\"gradle-setup\"><a href=\"#gradle-setup\" id=\"gradle-setup\" class=\"anchor\"><\/a>Gradle setup<\/h2>\n<ul>\n<li><code>dependencies.gradle<\/code> store a list of all used dependencies,\nif you want to add more dependencies, make sure to check the source whether your lib is still well maintained or not<\/li>\n<li><code>dokka-setup.gradle<\/code> used for generate javadocs from our core (it's not magical, we still need to add comment info to be generated as javadocs)<\/li>\n<\/ul>\n<h2 id=\"our-friendly-spell\"><a href=\"#our-friendly-spell\" id=\"our-friendly-spell\" class=\"anchor\"><\/a>Our friendly spell<\/h2>\n<ul>\n<li><code>./gradlew dokka<\/code> : to generate javadocs, the html output file will reside in : <code>core/build/javadoc/core/index.html<\/code><\/li>\n<li><code>./gradlew core:assembleRelease --parallel --stacktrace --no-daemon -x lint<\/code> : to assemble our core<\/li>\n<li><code>./gradlew core:artifactoryPublish --stacktrace --no-daemon -x lint<\/code> : to manually deploy to our Artifactory website<\/li>\n<\/ul>\n<h2 id=\"version\"><a href=\"#version\" id=\"version\" class=\"anchor\"><\/a>Version?<\/h2>\n<ul>\n<li>Version number manually set in <code>gradle.properties<\/code><\/li>\n<\/ul>\n"
+      }]
+    },
+    "wiki": {
+      "ownKey": "wiki",
+      "childrenPages": {"installation": {
+        "ownKey": "installation",
+        "ownPages": [{
+          "reference": {
+            "path": "wiki",
+            "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+            "fileName": "installation",
+            "extension": "html",
+            "usePrettyUrl": true,
+            "link": "https://ruangguru.gitlab.io/android/rg-android-core/wiki/installation"
+          },
+          "description": "",
+          "title": "Installation",
+          "content": "<p>To include rg-core as dependency, add this line in your subproject-level (app/module) <code>build.gradle<\/code>:<\/p>\n<p><code>implementation &quot;com.ruangguru.core:core:$RgCoreVersion&quot;<\/code><\/p>\n"
+        }]
+      }},
+      "ownPages": [{
+        "reference": {
+          "path": "",
+          "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+          "fileName": "wiki",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "https://ruangguru.gitlab.io/android/rg-android-core/wiki"
+        },
+        "description": "",
+        "title": "Wiki",
+        "content": "<html>\n <head><\/head>\n <body>\n  <ul> \n   <li><a href=\"https://ruangguru.gitlab.io/android/rg-android-core/wiki/installation\">Installation<\/a><\/li> \n  <\/ul> \n <\/body>\n<\/html>\n"
+      }]
+    },
+    "changelog": {
+      "ownKey": "changelog",
+      "ownPages": [{
+        "reference": {
+          "path": "",
+          "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+          "fileName": "changelog",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "https://ruangguru.gitlab.io/android/rg-android-core/changelog"
+        },
+        "description": "",
+        "title": "Changelog",
+        "content": ""
+      }]
+    }
+  },
+  "ownPages": [
+    {
+      "reference": {
+        "path": "",
+        "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+        "fileName": "",
+        "extension": "html",
+        "usePrettyUrl": true,
+        "link": "https://ruangguru.gitlab.io/android/rg-android-core"
+      },
+      "description": "",
+      "title": "Home",
+      "content": "<h1 id=\"rg-android-core\"><a href=\"#rg-android-core\" id=\"rg-android-core\" class=\"anchor\"><\/a>RG Android Core<\/h1>\n<p>Core helper library for common, reusable solutions.<\/p>\n"
+    },
+    {
+      "reference": {
+        "path": "",
+        "baseUrl": "https://ruangguru.gitlab.io/android/rg-android-core",
+        "fileName": "404",
+        "extension": "html",
+        "usePrettyUrl": false,
+        "link": "https://ruangguru.gitlab.io/android/rg-android-core/404.html"
+      },
+      "description": "",
+      "title": "Not Found",
+      "content": ""
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <sitemap>
+        <loc>https://ruangguru.gitlab.io/android/rg-android-core/sitemap-assets.xml</loc>
+        <lastmod>2020-04-20</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://ruangguru.gitlab.io/android/rg-android-core/sitemap-external.xml</loc>
+        <lastmod>2020-04-20</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://ruangguru.gitlab.io/android/rg-android-core/sitemap-changelog.xml</loc>
+        <lastmod>2020-04-20</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://ruangguru.gitlab.io/android/rg-android-core/sitemap-forms.xml</loc>
+        <lastmod>2020-04-20</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://ruangguru.gitlab.io/android/rg-android-core/sitemap-home.xml</loc>
+        <lastmod>2020-04-20</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://ruangguru.gitlab.io/android/rg-android-core/sitemap-javadoc.xml</loc>
+        <lastmod>2020-04-20</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://ruangguru.gitlab.io/android/rg-android-core/sitemap-kotlindoc.xml</loc>
+        <lastmod>2020-04-20</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://ruangguru.gitlab.io/android/rg-android-core/sitemap-pages.xml</loc>
+        <lastmod>2020-04-20</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://ruangguru.gitlab.io/android/rg-android-core/sitemap-wiki.xml</loc>
+        <lastmod>2020-04-20</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://ruangguru.gitlab.io/android/rg-android-core/sitemap-sitemap.xml</loc>
+        <lastmod>2020-04-20</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://ruangguru.gitlab.io/android/rg-android-core/sitemap-indices.xml</loc>
+        <lastmod>2020-04-20</lastmod>
+    </sitemap>
+    
+</sitemapindex>

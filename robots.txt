@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: /
+
+
+
+Sitemap: https://ruangguru.gitlab.io/android/rg-android-core/sitemap.xml
+
